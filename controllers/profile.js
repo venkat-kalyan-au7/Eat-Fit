@@ -6,15 +6,7 @@ import Pmodel from "../models/Profile"
 exports.Profile=(req,res)=>{
   
     const { Name, Email, Age, Height,Weight,Blood ,Sex } = req.body;
-    if(Name=== "" || Email===""||Age===""||Height===""||Weight===""||Blood==="" ||Sex===""){
-        return res.status(400).json(
-            {
-                error:"All feilds required"
-             }
-        );
-
-
-    }
+   
 
     
 //bmi formula Formula: weight (kg) / [height (m)]2
@@ -35,6 +27,7 @@ exports.Profile=(req,res)=>{
                 message:"E-mail already exists",
             })
         }
+        
     
 
     newprofile.save((err,result)=>{
