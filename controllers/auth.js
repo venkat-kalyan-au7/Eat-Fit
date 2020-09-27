@@ -54,7 +54,7 @@ var transport = nodemailer.createTransport({
           ],
           from: {
             address:EMAIL_FROM,
-            name: "FitnessCare",
+            name: "EatFit",
           },
           subject: "Account Activation Link",
           html: `
@@ -128,7 +128,7 @@ var transport = nodemailer.createTransport({
                 }
       
                 res.json({
-                  message: `Hey ${name}, welcome to the FitnessCare!!`,
+                  message: `Hey ${name}, welcome to the EatFit!!`,
                 });
               });
             });
