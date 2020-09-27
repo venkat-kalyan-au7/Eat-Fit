@@ -3,7 +3,7 @@ import Layout from "../Layout/Layout"
 import axios from "axios"
 import {toast,ToastContainer} from "react-toastify"
 
-const API ='http://localhost:5000/api'
+const API ='https://eatfit-kalyan.herokuapp.com/api'
 
 const BTN_LABEL = "Request password reset link";
 

@@ -7,7 +7,7 @@ import {authenticate,isAuth} from "../../utils/cookie"
 import "./Login.css"
 
 
-const API ='http://localhost:5000/api'
+const API ='https://eatfit-kalyan.herokuapp.com/api'
 
 const Signin = ({ history }) => {
     const [formInputs, setFormInputs] = useState({

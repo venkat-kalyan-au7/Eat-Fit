@@ -6,7 +6,7 @@ import Route from "./Routes/Routes"
 import axios from "axios"
 import {getCookie,signout} from "./utils/cookie"
 
-axios.defaults.baseURL ='http://localhost:5000/api';
+axios.defaults.baseURL ='https://eatfit-kalyan.herokuapp.com/api';
 
 
 axios.interceptors.request.use((config) => {

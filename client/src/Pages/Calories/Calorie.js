@@ -6,7 +6,7 @@ import {getLocalStorages} from "../../utils/cookie"
 
 
 
-const API ='http://localhost:5000/api'
+const API ='https://eatfit-kalyan.herokuapp.com/api'
 
 export class Cal extends Component {
     constructor(props) {

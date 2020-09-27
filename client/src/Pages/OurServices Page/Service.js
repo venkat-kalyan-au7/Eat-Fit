@@ -6,7 +6,7 @@ import "./Service.css"
 
 
 
-const API ='http://localhost:5000/api'
+const API ='https://eatfit-kalyan.herokuapp.com/api'
 
 
 export class Service extends Component {

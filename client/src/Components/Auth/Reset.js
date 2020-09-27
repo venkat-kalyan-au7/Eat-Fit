@@ -4,7 +4,7 @@ import axios from "axios"
 import jwt from "jsonwebtoken"
 import {toast,ToastContainer} from "react-toastify"
 
-const API ='http://localhost:5000/api'
+const API ='https://eatfit-kalyan.herokuapp.com/api'
 
 
 const Reset = ({ match }) => {
