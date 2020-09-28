@@ -15,12 +15,10 @@ const JWT_RESET_PASSWORD = require("../config/keys").JWT_RESET_PASSWORD
 
 //using nodemailer for sending mails
 var transport = nodemailer.createTransport({
-    host: "in-v3.mailjet.com",
-    port:25,
-    secure:true,
+    host: "gmail",
     auth: {
-      user:"81da130876f2c536e3fe22fdd2c91f9e",
-      pass: "93260605293f75f563ee39776a5e5ec4"
+      user:"attainutbs@gmail.com",
+      pass: "tbsattainu"
     }
   });
   
