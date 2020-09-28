@@ -17,7 +17,7 @@ exports.Breakfast=(req,res)=>{
     const {email}=req.body;
     const updateData={
         date:new Date().getDate()+"-"+(new Date().getMonth()+1)+'-'+new Date().getFullYear(),
-        time:new Date().getHours()+":"+new Date().getMinutes() +":"+ new Date().getSeconds(),
+        time:(new Date().getHours()+6)+":"+new Date().getMinutes() +":"+ new Date().getSeconds(),
         cal:totalCal.toFixed(3)
     }
     if(totalCal>0){
